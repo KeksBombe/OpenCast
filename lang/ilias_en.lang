@@ -251,16 +251,16 @@ event_schedule_new#:#Schedule Event(s)
 event_start_time#:#Start
 event_start#:#Start
 event_state_failed#:#Publication failed. Please contact the support.
-event_state_instantiated#:#Converting not yet started, not yet visible to students
-event_state_not_published#:#Not published, not yet visible to students
-event_state_ready_for_cutting#:#Not published (ready for cutting), not yet visible to students
-event_state_running#:#Converting, not yet visible to students
-event_state_offline#:#Offline, not visible to students
-event_state_scheduled#:#Scheduled event, not visible to students.
-event_state_scheduled_offline#:#Preprocessing ongoing (Offline), not visible to students.
-event_state_recording#:#Is currently being recorded, not visible to students.
+event_state_instantiated#:#Converting not yet started, not yet visible
+event_state_not_published#:#Not published, not yet visible
+event_state_ready_for_cutting#:#Not published (ready for cutting), not yet visible
+event_state_running#:#Converting, not yet visible
+event_state_offline#:#Offline, not visible
+event_state_scheduled#:#Scheduled event, not visible.
+event_state_scheduled_offline#:#Preprocessing ongoing (Offline), not visible.
+event_state_recording#:#Is currently being recorded, not visible.
 event_state_live_scheduled#:#Live Stream (not started yet). Open from %s.
-event_state_live_offline#:#Scheduled live Stream (Offline), not visible to students.
+event_state_live_offline#:#Scheduled live Stream (Offline), not visible.
 event_state_live_running#:#Currently running Live Stream.
 event_title#:#Title
 event_update#:#Save
@@ -278,7 +278,7 @@ event_event_event_created_unix#:#Date
 event_set_online#:#Set online
 event_delete_confirm_w_duplicates#:#Deleting causes the recording to be permanently deleted (on Opencast and in every linked series in ILIAS (see below and in the "Info" tab).<br />Do you really want to delete this recording?
 event_state_failed_owner#:#Publication failed. Please contact the support.
-event_state_running_owner#:#Converting, not yet visible to other students
+event_state_running_owner#:#Converting, not yet visible to other users
 event_report_date_modification#:#Report Date Modifications
 event_report_quality_problem#:#Report Quality Problems
 event_startworkflow#:#Start Workflow
@@ -378,16 +378,16 @@ series_metadata#:#Series-Infos
 series_obj_online#:#Online
 series_none#:#None
 series_permission_allow_set_own#:#Grant Access Rights
-series_permission_allow_set_own_info#:#An owner can give other students the right to watch his/her video.
+series_permission_allow_set_own_info#:#An owner can give other users the right to watch his/her video.
 series_permission_per_clip#:#Set permissions per Event
-series_permission_per_clip_info#:#This setting enables an individual rights management based on Event ownership (iVT-Mode). Let this setting deactivated, when all students are allowed to see all the Events of this series.
+series_permission_per_clip_info#:#This setting enables an individual rights management based on Event ownership (iVT-Mode). Let this setting deactivated, when all users are allowed to see all the Events of this series.
 series_permission_template#:#Permissions
 series_publish_on_video_portal#:#Publish Series on %s
 series_publish_on_video_portal_info#:#This setting leads to a publication on the video portal of your institution. Leave this setting deactivated if the recordings are only to be viewed in ILIAS.
 series_save#:#Save
 series_saved#:#Series-Information saved
 series_show_upload_token#:#Show Upload-Token
-series_show_upload_token_info#:#Displays a code which students can use to upload own Events
+series_show_upload_token_info#:#Displays a code which users can use to upload own Events
 series_title#:#Title
 series_update#:#Update
 series_use_annotations#:#Activate Annotations

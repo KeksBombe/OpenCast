@@ -251,16 +251,16 @@ event_schedule_new#:#Aufzeichnungstermin(e) planen
 event_start_time#:#Start
 event_start#:#Start
 event_state_failed#:#Fehlgeschlagen. Melden Sie sich bei Ihrer Supportstelle.
-event_state_instantiated#:#Verarbeitung ausstehend, für Studierende noch nicht sichtbar.
-event_state_not_published#:#Nicht publiziert, für Studierende noch nicht sichtbar.
-event_state_ready_for_cutting#:#Nicht publiziert (Schnitt erforderlich), für Studierende noch nicht sichtbar.
-event_state_running#:#Wird konvertiert, für Studierende noch nicht sichtbar.
-event_state_offline#:#Offline, für Studierende nicht sichtbar.
-event_state_scheduled#:#Geplante Aufzeichnung, für Studierende nicht sichtbar.
-event_state_scheduled_offline#:#Aufzeichnung wird verarbeitet (Offline), für Studierende nicht sichtbar.
-event_state_recording#:#Wird momentan Aufgezeichnet, für Studierende nicht sichtbar.
+event_state_instantiated#:#Verarbeitung ausstehend, noch nicht sichtbar.
+event_state_not_published#:#Nicht publiziert, noch nicht sichtbar.
+event_state_ready_for_cutting#:#Nicht publiziert (Schnitt erforderlich), noch nicht sichtbar.
+event_state_running#:#Wird konvertiert, noch nicht sichtbar.
+event_state_offline#:#Offline, nicht sichtbar.
+event_state_scheduled#:#Geplante Aufzeichnung, nicht sichtbar.
+event_state_scheduled_offline#:#Aufzeichnung wird verarbeitet (Offline), nicht sichtbar.
+event_state_recording#:#Wird momentan Aufgezeichnet, nicht sichtbar.
 event_state_live_scheduled#:#Live-Übertragung (noch nicht begonnen). Offen ab %s.
-event_state_live_offline#:#Geplante Live-Aufzeichnung (Offline), für Studierende nicht sichtbar.
+event_state_live_offline#:#Geplante Live-Aufzeichnung (Offline), nicht sichtbar.
 event_state_live_running#:#Laufende Live-Übertragung.
 event_title#:#Titel
 event_update#:#Speichern
@@ -276,7 +276,7 @@ event_created_unix#:#Datum
 event_set_online#:#Online schalten
 event_delete_confirm_w_duplicates#:#Das Löschen bewirkt, dass die Aufzeichnung definitiv gelöscht wird (auf Opencast und in den anderen ILIAS-Verlinkungen, siehe unten und im Tab «Info»).<br />Wollen Sie diese Aufzeichnung wirklich löschen?
 event_state_failed_owner#:#Fehlgeschlagen. Melden Sie sich bei Ihrer Supportstelle.
-event_state_running_owner#:#Wird konvertiert, für andere Studierende noch nicht sichtbar
+event_state_running_owner#:#Wird konvertiert, für andere Benutzer noch nicht sichtbar
 event_report_date_modification#:#Terminanpassungen melden
 event_report_quality_problem#:#Qualitätsprobleme melden
 event_series#:#Serie
@@ -375,7 +375,7 @@ series_metadata#:#Serie-Infos
 series_none#:#Keins
 series_obj_online#:#Online
 series_permission_allow_set_own#:#Zugriffsrechte erteilen
-series_permission_allow_set_own_info#:#Ein Aufzeichnungs-Besitzer/in kann anderen Studierenden das Recht geben, seine/ihre Aufzeichnung anzusehen.
+series_permission_allow_set_own_info#:#Ein Aufzeichnungs-Besitzer/in kann anderen Benutzern das Recht geben, seine/ihre Aufzeichnung anzusehen.
 series_permission_per_clip#:#Rechte pro Aufzeichnung setzen
 series_permission_per_clip_info#:#Diese Einstellung aktiviert eine individuelle Rechteverwaltung auf Aufzeichnungs-Ebene (iVT-Modus). Lassen Sie Einstellung deaktiviert, wenn alle Kursteilnehmer sämtliche Aufzeichnungen der gewählten Serie sehen dürfen.
 series_permission_template#:#Berechtigungen
@@ -384,7 +384,7 @@ series_publish_on_video_portal_info#:#Diese Einstellung führt zu einer Publikat
 series_save#:#Speichern
 series_saved#:#Serie-Informationen gespeichert
 series_show_upload_token#:#Upload-Token anzeigen
-series_show_upload_token_info#:#Zeigt einen Code an, mit welchem Studierende selber Aufzeichnungen hochladen können
+series_show_upload_token_info#:#Zeigt einen Code an, mit welchem Benutzer selber Aufzeichnungen hochladen können
 series_title#:#Titel
 series_update#:#Aktualisieren
 series_use_annotations#:#Annotationen aktivieren
